@@ -1,6 +1,6 @@
 ﻿const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "$";
+const prefix = "-";
 
 
 
@@ -133,7 +133,7 @@ client.on("message", async message => {
     }
 });
 client.on("message", async message => {
-    if(message.content.startsWith(prefix + "invite")) {
+    if(message.content.startsWith(prefix + "dghhhhhhhhhhhhhh")) {
         let invite = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setAuthor(message.author.username, message.author.displayAvatarURL)
@@ -148,10 +148,10 @@ client.on("message", async message => {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
-            .setDescription(`**__برودكاست بوت | Version 1.1__ 
+            .setDescription(`**bight Server
 
             برودكاست عادي : ${prefix}bc
-            دعوة البوت لسيرفرك : ${prefix}invite
+            لمسح الشات    : ${prefix}clear
             معلومات عن السيرفر : ${prefix}server
             برودكاست للأونلاين فقط : ${prefix}bco
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
